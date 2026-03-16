@@ -1,0 +1,21 @@
+{
+  "name": "slidev-starter-seeed",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export",
+    "postinstall": "git submodule update --init --recursive"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.12.0",
+    "vue": "^3.5.16"
+  },
+  "devDependencies": {
+    "playwright-chromium": "^1.53.1"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "playwright-chromium"]
+  }
+}
