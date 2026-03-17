@@ -5,7 +5,7 @@ AI 驱动的演示文稿创作工具 — 基于 [Slidev](https://sli.dev) + Seee
 ## 快速开始
 
 ```bash
-git clone --recursive https://github.com/seeed-studio/slidev-starter-seeed.git
+git clone --recursive https://github.com/Love4yzp/slidev-starter-seeed.git
 cd slidev-starter-seeed
 pnpm install
 pnpm dev
@@ -36,7 +36,7 @@ pnpm build      # 导出 SPA 网页
 
 ## 主题
 
-本项目使用 [slidev-theme-seeed](https://github.com/seeed-studio/slidev-theme-seeed) 主题（以 git submodule 形式引入）。
+本项目使用 [slidev-theme-seeed](https://github.com/Love4yzp/slidev-theme-seeed) 主题（以 git submodule 形式引入）。
 
 ## License
 
